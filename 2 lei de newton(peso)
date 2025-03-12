@@ -1,0 +1,16 @@
+#include <iostream>
+
+int main()
+{ 
+    float m,g,p;
+    std::cout<<"\nDigite a massa(kg):"; 
+    std::cin>>m; 
+    std::cout<<"\nDigite a gravidade(m/s²):"; 
+    std::cin>>g; 
+    std::cout<<"\no valor da velocidade é:"<<m*g; 
+    if(m && g !=0){ 
+       std::cout<<"\nObservação: o peso é em N"; 
+    }
+    
+    return 0;
+}
